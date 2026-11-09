@@ -7,6 +7,7 @@ The domains of law enforcement, forensics, and justice are increasingly relying 
 
 ## Contents
 
+- [History of Ontologies](#history-of-ontologies)
 - [Law Enforcement & Policing Ontologies](#law-enforcement--policing-ontologies)
 - [Forensic Science & Digital Forensics Ontologies](#forensic-science--digital-forensics-ontologies)
 - [Legal, Judicial & Justice Ontologies](#legal-judicial--justice-ontologies)
@@ -19,7 +20,45 @@ The domains of law enforcement, forensics, and justice are increasingly relying 
 - [Related Awesome Lists](#related-awesome-lists)
 
 ---
+## History of Ontologies
 
+Ontology is not a concept that emerged with the Semantic Web or artificial intelligence. It has deep roots in philosophy and has undergone a long transformation to become a crucial engineering tool in computer science today.
+
+### From Philosophy to Computer Science
+
+The term "ontology" originates from philosophy, referring to the study of existence and the categories of reality. Its ancient roots can be traced to Aristotle's system of categories (4th century BC), who first classified the kinds of things that exist and developed logic as a method for precise reasoning about knowledge. Porphyry (234–305) later systematized Aristotle's categories into a hierarchical tree structure—known as the "Tree of Porphyry"—laying the foundation for later taxonomies.
+
+The English term "ontology" was first recorded in Bailey's dictionary in 1721, defined as "an account of being in the abstract." However, it was not until the 1970s–1980s that computer scientists began to take an interest in ontology as a way to represent knowledge in artificial intelligence systems, aiming to enable machines to understand and reason about the world.
+
+### The Emergence of the Term in Computer Science
+
+In 1980, John McCarthy was the first to use the term "ontology" in computer science, arguing that designers of AI systems should first list the entities that exist in the world, creating an "ontology" of that world. However, the most influential and widely cited definition was given by Tom Gruber in 1993: an ontology is an "explicit specification of a conceptualization."
+
+During the 1990s, ontology became a popular research topic in the AI and knowledge engineering communities. The first large-scale ontology systems emerged, notably **WordNet** (modeling the English language with synonymy and hyponymy relations) and **Cyc** (an effort to encode common-sense human knowledge with formal, machine-processable relations).
+
+### The Development of Ontology Languages
+
+Alongside the development of ontologies, formal languages for representing them gradually took shape. Pioneering ontology languages included **Ontolingua** (based on the Knowledge Interchange Format – KIF), **CycL**, and **Frame Logic (F-Logic)**.
+
+A major turning point came around 2000–2001 with the unification of two research streams: **OIL** (Ontology Inference Layer, developed within the European On-To-Knowledge project) and **DAML** (DARPA Agent Markup Language from the US). This collaboration produced **DAML+OIL**, which laid the direct foundation for the standard ontology language of the Web.
+
+In 2004, **OWL (Web Ontology Language)** became an official W3C Recommendation, inheriting from DAML+OIL and grounded in Description Logics. OWL provides three variants (OWL Lite, OWL DL, OWL Full) with different levels of expressivity and reasoning capabilities. In 2009, **OWL 2** was published as a more powerful extension, adding many new features and becoming the most widely used ontology language to this day.
+
+### The Semantic Web and the Ontology Boom
+
+In the early 2000s, the idea of the **Semantic Web** emerged, aiming to transform the current web—where information is mainly for human consumption—into a web that machines can understand and process. Ontology became a core component of the Semantic Web, providing the vocabulary and structure needed for data integration and interoperability.
+
+Foundational standards such as **RDF** (launched in 1999) and **RDFS** (in 2000), together with OWL, created a complete technology ecosystem for representing and querying knowledge on the Web. In the late 2000s and early 2010s, the **Knowledge Graph** emerged as a practical application of ontology ideas, especially after Google announced its Knowledge Graph, bringing ontologies and knowledge graphs into large-scale commercial applications such as search, recommendation, and data analytics.
+
+### Ontology Engineering Methodologies
+
+Alongside language development, methodologies for building ontologies gradually took shape. Two of the earliest methodologies are **Enterprise Ontology** (Ushold and King, 1995) and **TOVE** (Grüninger and Fox, 1996). Subsequently, **METHONTOLOGY** (Fernández-López et al.) and **Ontology Development 101** (Noy and McGuinness, 2001) became the most cited guides, laying the foundation for systematic ontology development processes. Methodologies such as **DILIGENT** (2004) later added aspects of iterative and collaborative development throughout the ontology lifecycle.
+
+### Ontologies in Law Enforcement, Forensics, and Justice
+
+Today, this historical legacy is inherited and advanced in specialized domains. Ontologies such as **CASE/UCO** for cyber-investigation, **LKIF-Core** and **JudO** for the legal field, and the **CAC Ontology** for child exploitation cases are direct applications of the theoretical and linguistic foundations built over decades. They demonstrate that ontology—from an abstract philosophical concept—has become an essential engineering tool for organizing, integrating, and exploiting knowledge in domains that demand high precision and reasoning capabilities.
+
+---
 ## Law Enforcement & Policing Ontologies
 
 - **CAC Ontology (Crimes Against Children)** - A comprehensive semantic framework for modeling child exploitation investigations, law enforcement operations, legal processes, and digital forensics. Extends UCO and CASE. Available under Apache 2 license. [GitHub](https://github.com/Project-VIC-International/CAC-Ontology) | [Documentation](https://cacontology.projectvic.org)
