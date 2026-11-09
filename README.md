@@ -1,4 +1,5 @@
-# Awesome Law Enforcement, Forensics & Justice Ontologies [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Law Enforcement, Forensics & Justice Ontologies 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of ontologies, knowledge graphs, standards, tools, datasets, and research resources at the intersection of law enforcement, forensic science, and the justice system—spanning multiple languages and legal traditions.
 
